@@ -7,14 +7,5 @@ from docx2pdf import convert
  
 # Converting docx present in the same folder
 # as the python file
-convert("GFG.docx")
+convert(r"C:\Users\hp\OneDrive\Documents\GitHub\PYTHON-LANGUAGE-PROGRAMMING-LAB--KCS-453--PROGRAMS\ppl lab edited.docx")
  
-# Converting docx specifying both the input
-# and output paths
-convert("GeeksForGeeks\GFG_1.docx", "Other_Folder\Mine.pdf")
- 
-# Notice that the output filename need not be
-# the same as the docx
- 
-# Bulk Conversion
-convert("GeeksForGeeks\")
