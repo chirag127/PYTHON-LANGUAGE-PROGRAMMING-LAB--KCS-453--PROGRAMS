@@ -74,4 +74,3 @@ print("The result of the multiplication is: ")
 
 for r in result:
     print(r)
-

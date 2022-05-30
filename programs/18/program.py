@@ -1,6 +1,7 @@
-#Write a Python program to print ‘n terms of Fibonacci series using iteration.
+# Write a Python program to print ‘n terms of Fibonacci series using iteration.
 
 n = int(input("Enter the number of terms: "))
+
 
 def fibonacci(n):
     a = 0
@@ -10,5 +11,6 @@ def fibonacci(n):
         c = a + b
         a = b
         b = c
+
 
 fibonacci(n)
