@@ -12,8 +12,8 @@ def linear_search(arr, x):
 print(linear_search([1, 2, 3, 4, 5], 5))
 
 # make above function shorter
-def linearr_search(arr, x):
+def linear_list_search(arr, x):
     return x in arr, arr.index(x)
 
 
-print(linearr_search([1, 2, 3, 4, 5], 5))
+print(linear_list_search([1, 2, 3, 4, 5], 5))
