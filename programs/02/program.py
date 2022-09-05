@@ -3,6 +3,8 @@
 from unittest import result
 
 
+
+
 A = []
 
 n = int(input("Enter the N for N x N matrix: "))
